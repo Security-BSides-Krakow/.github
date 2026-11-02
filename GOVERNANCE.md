@@ -24,6 +24,8 @@ Teams are capability groups, not honorary titles. Owners assign people only afte
 
 Owners manage repository creation/deletion, visibility changes, outside collaborator invitations and organization-level integrations. Request a repository by discussing its purpose, maintainer, intended visibility, license and expected data with organizers. Do not store private participant or sponsor data in public repositories.
 
+Outside collaborator invitations are an owner-managed process. GitHub Free does not offer an organization-wide technical control restricting invitations to owners; repository admins can invite collaborators. Avoid granting repository Admin to non-owners when Maintain or Write is sufficient, and review invitations and access regularly.
+
 ## Continuity and accountability
 
 Aim for at least two trusted owners with 2FA and securely stored recovery methods. The current owner must select and invite a second person; do not grant ownership merely to fill a quota. Review owners, teams, outside collaborators, apps and tokens at least quarterly and when someone leaves a role.
