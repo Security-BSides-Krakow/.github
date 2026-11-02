@@ -14,7 +14,7 @@ Use squash merges and automatically delete merged feature branches. Add required
 
 Default Actions tokens are read-only and cannot approve pull requests. Request additional permissions per job only where necessary. Require approval for workflows from external contributors. Review workflow changes before approving a fork run; never execute untrusted contribution code with deployment secrets or in privileged pull_request_target jobs.
 
-Prefer GitHub-owned or verified publisher Actions and pin actions to immutable commit SHAs. Restrict additional Actions by reviewed allow-list entries. Existing demo workflows retain narrowly scoped version exceptions until maintainers migrate and validate them; global SHA enforcement must not be enabled while those workflows still use mutable tags. Public community repositories can require SHA pinning immediately.
+Prefer GitHub-owned or verified publisher Actions and pin actions to immutable commit SHAs. Restrict additional Actions by reviewed allow-list entries. Existing workflows retain narrowly scoped version exceptions until maintainers migrate and validate them; global SHA enforcement must not be enabled while those workflows still use mutable tags. Public community repositories require SHA pinning.
 
 Keep deployment and synchronization credentials in repository secrets with the minimum scope, an owner and an expiry. Prefer GitHub App installation tokens for automation; do not store personal CLI credentials as permanent secrets. Review and rotate tokens, and revoke unused integrations.
 
